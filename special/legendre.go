@@ -8,7 +8,7 @@ package special
 //      Legendre(0, x) = 1.0
 //      Legendre(1, x) = x
 func Legendre(n int, x float64) float64 {
-  //special cases
+	//special cases
 	switch {
 	case n == 0:
 		return 1.0

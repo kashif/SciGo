@@ -15,10 +15,10 @@ var legendre = []float64{
 	6.088386439050518e+06,
 }
 
-func TestJacobi(t *testing.T) {
+func TestLegendre(t *testing.T) {
 	for i := 0; i < len(vf); i++ {
-		if f := Jacobi(6, 2, 2, vf[i]); !soclose(jacobi[i], f, 4e-14) {
-			t.Errorf("Jacobi(6,2,2,%g) = %g, want %g", vf[i], f, jacobi[i])
+		if f := Legendre(6, vf[i]); !soclose(legendre[i], f, 4e-14) {
+			t.Errorf("Legendre(6,%g) = %g, want %g", vf[i], f, legendre[i])
 		}
 	}
 }

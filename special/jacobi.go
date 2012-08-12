@@ -8,7 +8,7 @@ package special
 //      Jacobi(0, a, b, x) = 1.0
 //      Jacobi(1, a, b, x) = 0.5 * (a - b + (a + b + 2.0)*x)
 func Jacobi(n int, a float64, b float64, x float64) float64 {
-  // special cases
+	// special cases
 	switch {
 	case n == 0:
 		return 1.0
