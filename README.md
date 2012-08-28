@@ -1,10 +1,10 @@
 #SciGo
 
-SciGo hopes to provide a collection of Scientific Routines for Go.
+SciGo hopes to provide a collection of scientific routines for Go.
 
 ##Installation
 ```
-go get github.com/kashif/SciGo
+go get github.com/kashif/SciGo/special
 ```
 
 ##Testing

@@ -1,9 +1,7 @@
 package special
 
-/*
-  Legendre polynomials: Legendre(n, x)
-*/
-
+// Legendre polynomials: Legendre(n, x)
+//
 // Special cases are:
 //      Legendre(0, x) = 1.0
 //      Legendre(1, x) = x

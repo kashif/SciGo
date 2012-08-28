@@ -1,9 +1,7 @@
 package special
 
-/*
-  Jacobi polynomials: Jacobi(n, a, b, x)
-*/
-
+// Jacobi polynomials: Jacobi(n, a, b, x)
+//
 // Special cases are:
 //      Jacobi(0, a, b, x) = 1.0
 //      Jacobi(1, a, b, x) = 0.5 * (a - b + (a + b + 2.0)*x)
